@@ -14,7 +14,7 @@
             'route' => ['tasks.destroy', $task->id]
         ]) !!}
         
-        {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
+        {!! Form::submit('Delete', ['class' => 'btn btn-danger text-center']) !!}
     
         {!! Form::close() !!}
     </div>
